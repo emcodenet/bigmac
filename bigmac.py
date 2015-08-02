@@ -1,6 +1,5 @@
 import random
 import subprocess
-import getopt
 import sys
 
 net_adapter = sys.argv[1]
