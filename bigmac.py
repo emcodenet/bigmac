@@ -34,5 +34,5 @@ if(change and change == "new"):
     subprocess.call(["ifconfig", net_adapter, "down"])
     subprocess.call(["ifconfig", net_adapter, "hw", "ether", new_mac])
     subprocess.call(["ifconfig", net_adapter, "up"])
-    
+    print 'Done!'
     
