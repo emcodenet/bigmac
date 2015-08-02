@@ -3,7 +3,7 @@ View or change network adapter MAC address (python)
 
 ## Usage
 <code>
-sudo python bigmac.py eth0  
+python bigmac.py eth0  
 </code>-> displays MAC for adapter (eth0, wlan0,...)
 
 <code>
